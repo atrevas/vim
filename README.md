@@ -1,0 +1,2 @@
+# vim
+Configurações do Vim.
