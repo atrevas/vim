@@ -1,21 +1,21 @@
 "-----------------------------------------------------------------------------------------------
-" Configurações Pessoais
+" Personal Configurations 
 "-----------------------------------------------------------------------------------------------
 colorscheme desert
 
 set number
 set relativenumber
 
-" Configurações para trabalhar com Python
+" Configurations to work with Python
 syntax on
 filetype indent plugin on
 
-" Coloca os arquivos temporários no diretório /tmp
-" Referência: https://medium.com/@Aenon/vim-swap-backup-undo-git-2bf353caa02f
+" Put temp files in the /tmp folder
+" Reference: https://medium.com/@Aenon/vim-swap-backup-undo-git-2bf353caa02f
 set backupdir=/tmp//
 set directory=/tmp//
 set undodir=/tmp//
 
-" Novo split abre abaixo da janela atual ou à sua direita
+" New split opens below the current window or to its right
 set splitbelow splitright
 "-----------------------------------------------------------------------------------------------
