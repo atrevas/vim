@@ -1,2 +1,2 @@
 # vim
-Configurações do Vim.
+Personal Vim Configurations.
