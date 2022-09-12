@@ -1,14 +1,17 @@
 "-----------------------------------------------------------------------------------------------
 " Personal Configurations 
 "-----------------------------------------------------------------------------------------------
+
+" Set color scheme
 colorscheme desert
 
-" Display line number
+" Turn on line number
 set number
 
+" Turn on relative line number
 set relativenumber
 
-" Highligth current line
+" Turn on highlighting of the current line
 set cursorline
 
 " Configurations to work with Python
