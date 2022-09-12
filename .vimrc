@@ -3,7 +3,9 @@
 "-----------------------------------------------------------------------------------------------
 colorscheme desert
 
+" Display line number
 set number
+
 set relativenumber
 
 " Highligth current line
