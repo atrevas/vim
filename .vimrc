@@ -6,6 +6,9 @@ colorscheme desert
 set number
 set relativenumber
 
+" Highligth current line
+set cursorline
+
 " Configurations to work with Python
 syntax on
 filetype indent plugin on
