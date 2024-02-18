@@ -3,7 +3,13 @@
 "-----------------------------------------------------------------------------------------------
 
 " Set color scheme
-colorscheme desert
+" From: https://stackoverflow.com/questions/33376597/two-different-colorscheme-for-vim-based-on-gui-and-terminal-version-of-macvim
+" 
+if has("gui_running")
+    colorscheme ron
+else
+    colorscheme default
+endif
 
 " Turn on line number
 " set number
