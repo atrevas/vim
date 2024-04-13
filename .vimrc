@@ -12,10 +12,10 @@ else
 endif
 
 " Turn on line number
-" set number
+set number
 
 " Turn on relative line number
-" set relativenumber
+set relativenumber
 
 " Turn on highlighting of the current line
 set cursorline
