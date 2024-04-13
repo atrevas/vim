@@ -6,7 +6,7 @@
 " From: https://stackoverflow.com/questions/33376597/two-different-colorscheme-for-vim-based-on-gui-and-terminal-version-of-macvim
 " 
 if has("gui_running")
-    colorscheme ron
+    colorscheme slate
 else
     colorscheme default
 endif
