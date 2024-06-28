@@ -25,10 +25,15 @@ syntax on
 filetype indent plugin on
 
 " Put temp files in the /tmp folder
-" Reference: https://medium.com/@Aenon/vim-swap-backup-undo-git-2bf353caa02f
-set backupdir=/tmp//
-set directory=/tmp//
-set undodir=/tmp//
+" References:
+"  https://medium.com/@Aenon/vim-swap-backup-undo-git-2bf353caa02f
+"  https://superuser.com/questions/193250/how-can-i-distinguish-current-operating-system-in-my-vimrc
+"
+if has("unix")
+	set backupdir=/tmp//
+	set directory=/tmp//
+	set undodir=/tmp//
+endif
 
 " New split opens below the current window or to its right
 set splitbelow splitright
