@@ -37,4 +37,7 @@ endif
 
 " New split opens below the current window or to its right
 set splitbelow splitright
+
+" Turn on incremental search
+set incsearch
 "-----------------------------------------------------------------------------------------------
