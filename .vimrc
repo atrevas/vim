@@ -20,9 +20,10 @@ set relativenumber
 " Turn on highlighting of the current line
 set cursorline
 
-" Configurations to work with Python
+" Configurations to work with programming languages
 syntax on
 filetype indent plugin on
+set omnifunc=syntaxcomplete#Complete
 
 " Put temp files in the /tmp folder
 " References:
