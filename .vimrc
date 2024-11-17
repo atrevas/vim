@@ -41,4 +41,8 @@ set splitbelow splitright
 
 " Turn on incremental search
 set incsearch
+
+# Inegration with the system clipboard
+# Reference: https://stackoverflow.com/questions/30691466/what-is-difference-between-vims-clipboard-unnamed-and-unnamedplus-settings
+set clipboard^=unnamed,unnamedplus
 "-----------------------------------------------------------------------------------------------
