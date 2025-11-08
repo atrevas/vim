@@ -1,7 +1,11 @@
+unlet! skip_defaults_vim
+source $VIMRUNTIME/defaults.vim
+
 "-----------------------------------------------------------------------------------------------
 " Personal Configurations 
 "-----------------------------------------------------------------------------------------------
 
+" Theme
 " Set color scheme
 " From: https://stackoverflow.com/questions/33376597/two-different-colorscheme-for-vim-based-on-gui-and-terminal-version-of-macvim
 " 
@@ -11,19 +15,10 @@ else
     colorscheme default
 endif
 
-" Turn on line number
-set number
-
-" Turn on relative line number
-set relativenumber
-
-" Turn on highlighting of the current line
-set cursorline
-
-" Configurations to work with programming languages
-syntax on
-filetype indent plugin on
-set omnifunc=syntaxcomplete#Complete
+" Basic settings
+set number			" Turn on line number
+set relativenumber		" Turn on relative line number
+set cursorline			" Turn on highlighting of the current line
 
 " Put temp files in the /tmp folder
 " References:
@@ -36,13 +31,18 @@ if has("unix")
 	set undodir=/tmp//
 endif
 
-" New split opens below the current window or to its right
-set splitbelow splitright
+" Split behavior
+set splitbelow splitright	" New split opens below the current window or to its right
 
-" Turn on incremental search
-set incsearch
+" Search settings
+set incsearch			" Incremental search on
+set ignorecase			" Case insensitive search
+set smartcase                   " Case sensitive if uppercase in search
+set nohlsearch                  " Don't highlight search results 
 
+" Behavior settings
 " Inegration with the system clipboard
 " Reference: https://stackoverflow.com/questions/30691466/what-is-difference-between-vims-clipboard-unnamed-and-unnamedplus-settings
 set clipboard^=unnamed,unnamedplus
-"-----------------------------------------------------------------------------------------------
+set hidden	                " Allow hidden buffers
+set iskeyword+=-		" Add the hyphen character
