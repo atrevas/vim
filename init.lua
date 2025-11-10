@@ -52,3 +52,8 @@ vim.opt.encoding = "UTF-8"                         -- Set encoding
 -- Split behavior
 vim.opt.splitbelow = true                          -- Horizontal splits go below
 vim.opt.splitright = true                          -- Vertical splits go right
+
+-- Key Mapping
+vim.g.mapleader = " "								-- Set the global leader kemy
+vim.keymap.set('n', '<Leader>e', ':Explore<CR>', {desc = 'Netrw'})
+
