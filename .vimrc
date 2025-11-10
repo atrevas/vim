@@ -44,5 +44,9 @@ set nohlsearch                  " Don't highlight search results
 " Inegration with the system clipboard
 " Reference: https://stackoverflow.com/questions/30691466/what-is-difference-between-vims-clipboard-unnamed-and-unnamedplus-settings
 set clipboard^=unnamed,unnamedplus
-set hidden	                " Allow hidden buffers
+set hidden	                " Allows hidden buffers
 set iskeyword+=-		" Add the hyphen character
+
+" Key Mappings
+let g:mapleader = " "
+nnoremap <Leader>e :Explore<CR>
