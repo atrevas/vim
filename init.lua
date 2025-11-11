@@ -56,4 +56,6 @@ vim.opt.splitright = true                          -- Vertical splits go right
 -- Key Mapping
 vim.g.mapleader = " "								-- Set the global leader kemy
 vim.keymap.set('n', '<Leader>e', ':Explore<CR>', {desc = 'Netrw'})
+vim.keymap.set('n', '<C-u>', '<C-u>zz')
+vim.keymap.set('n', '<C-d>', '<C-d>zz')
 
