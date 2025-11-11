@@ -50,3 +50,5 @@ set iskeyword+=-		" Add the hyphen character
 " Key Mappings
 let g:mapleader = " "
 nnoremap <Leader>e :Explore<CR>
+nnoremap <C-u> <C-u>zz
+nnoremap <C-d> <C-d>zz
