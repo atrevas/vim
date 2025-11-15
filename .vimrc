@@ -12,8 +12,9 @@ source $VIMRUNTIME/defaults.vim
 if has("gui_running")
     colorscheme slate
 else
-    colorscheme default
+    colorscheme desert
 endif
+set termguicolors
 
 " Basic settings
 set number			" Turn on line number
@@ -49,6 +50,14 @@ set iskeyword+=-		" Add the hyphen character
 
 " Key Mappings
 let g:mapleader = " "
-nnoremap <Leader>e :Explore<CR>
+nnoremap <Leader>e :Lexplore<CR>
 nnoremap <C-u> <C-u>zz
 nnoremap <C-d> <C-d>zz
+
+" Enable the Man built-in plugin
+runtime ftplugin/man.vimo
+
+" Netrw settings
+let g:netrw_banner = 0		" Disable header banner
+let g:netrw_liststyle = 3	" Tree style listing
+let g:netrw_winsize = 20	" Fills 25% of the window
