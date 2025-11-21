@@ -20,6 +20,7 @@ set termguicolors
 set number			" Turn on line number
 set relativenumber		" Turn on relative line number
 set cursorline			" Turn on highlighting of the current line
+set nowrap                      " Don't wrap lines
 
 " Put temp files in the /tmp folder
 " References:
