@@ -62,3 +62,9 @@ runtime ftplugin/man.vimo
 let g:netrw_banner = 0		" Disable header banner
 let g:netrw_liststyle = 3	" Tree style listing
 let g:netrw_winsize = 20	" Fills 25% of the window
+
+" Settings necessary for the mucomplete plugin
+" Reference: https://github.com/lifepillar/vim-mucomplete
+set completeopt+=menuone
+set completeopt+=noselect
+let g:mucomplete#enable_auto_at_startup = 1
