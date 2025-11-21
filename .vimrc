@@ -47,7 +47,7 @@ set nohlsearch                  " Don't highlight search results
 " Reference: https://stackoverflow.com/questions/30691466/what-is-difference-between-vims-clipboard-unnamed-and-unnamedplus-settings
 set clipboard^=unnamed,unnamedplus
 set hidden	                " Allows hidden buffers
-set iskeyword+=-		" Add the hyphen character
+set iskeyword+=-		" Add the hyphen character as part of a word
 
 " Key Mappings
 let g:mapleader = " "
