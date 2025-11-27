@@ -56,7 +56,7 @@ nnoremap <C-u> <C-u>zz
 nnoremap <C-d> <C-d>zz
 
 " Enable the Man built-in plugin
-runtime ftplugin/man.vimo
+runtime ftplugin/man.vim
 
 " Netrw settings
 let g:netrw_banner = 0		" Disable header banner
